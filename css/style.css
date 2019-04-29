@@ -1,0 +1,296 @@
+body{
+	background: black;
+}
+
+.backgroundcolor{
+	background: #DCDCDC;
+}
+
+.logo{
+	width:180px;
+	height: 103px;
+	float: left;
+	padding-left:0px;
+	position:fixed;
+	margin: -30px 0 0 -36px;
+	margin-left: -181px;
+}
+
+.nav{
+	background: white;
+	height: 90px;
+}
+
+.searchbar{
+	padding-top: 8px;
+	padding-left: 20px;
+
+}
+
+.carousalsize{
+	margin-top: 95px;
+}
+
+.googlefont{
+	background:#01122B;
+	padding: 5px 0;
+	height: 180px;
+	margin-top: 20px;
+}
+
+.style{
+	font-family : 'Tangerine', cursive;
+	font-size: 80px;
+	padding:30px 300px;
+	color: white;
+}
+
+.fashion_grid1 {
+	/*margin-left: 180px;*/
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+}
+
+.heading{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+    font-size: 16px;
+	/*margin-left: 180px;*/
+    width: 350px;
+    padding: 30px;
+    margin-top: -60px;
+	
+}
+
+.heading1{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+	/*margin-left: 180px;*/
+    width: 350px;
+    padding: 30px;
+    margin-top: -40px;
+}
+
+.fashiontip_heading,.beautytip_heading{	
+	background: #455166;
+}
+
+.fashiontip_heading{
+	margin-top: 50px;
+}
+
+.fashiontip_content{
+	float:right;
+	width: 240px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+    line-height: 23px;
+    font-size: 16px;	
+}
+
+.beautytip p,h1{
+	color: black;
+}
+	
+.beautytip2,.beautytip3{
+	padding :20px 20px 0 0;
+}
+
+.beautytip_link{
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	padding-left: 8px;
+	font-family: vintage;
+}
+
+.beautytip_mainlink{
+	text-decoration:none;
+	color: black;
+}
+
+.fashiontip img{
+	width:200px;
+	height: 300px;
+	float: left;
+	padding-right: 20px;
+}
+
+.fashiontip_maincontent{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.beautytip_content,.beautytip_link{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+	line-height: 25px;
+	font-size: 17px;
+} 
+
+.beautytip_content{
+	width:320px;
+}  
+
+.jumbhead,.jumbbutton{   
+	margin-left: 600px;
+}
+
+.jumbhead{
+	padding-top: 50px;
+}
+
+.jumbcontent{
+	margin-left: 500px;
+}
+
+
+.tabpane{
+	width: 100%;
+	background: white;
+	font-size: 20px;	
+}
+
+.tabs{
+	margin:60px 300px;
+}
+.tabs a{
+	color:black;
+}
+
+.icon{
+   float: right;
+   display: inline;
+}
+
+.subscribe{
+	float: left;
+}
+
+.headline{
+	font-size:20px;
+	color: white;
+}
+
+.social_icon{
+	display: inline;
+	margin-right: 15px;
+	font-size: 25px;
+}
+
+.COPYRIGHT{
+	margin-left: 300px;
+    color: white;
+}
+
+.top{
+	margin: 40px 300px;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	overflow-x:hidden;
+}
+
+@media (max-width: 320px){
+	.carousal{ 
+	    width:320px;
+	}
+}
+
+
+@media (max-width: 1400px){
+	.style{
+		font-size:80px;
+	}
+}
+
+@media (max-width: 1346px){
+	.style{
+		font-size:65px;
+	}
+}
+
+@media (max-width: 1206px){
+	.style{
+		font-size:50px;
+	}
+}
+ 
+@media (max-width: 1066px){
+	.style{
+		font-size:40px;
+	}
+}
+
+@media (max-width: 320px){
+	.style{
+		/*height: 30px;*/
+		margin-top: 0px;
+		font-size:30px;
+		margin-left: -280px;
+	}
+}
+
+@media (max-width: 320px){
+	.googlefont{
+		margin-top: 0px;
+		height: 80px;
+		
+	}
+}
+
+@media (max-width: 320px){
+	.heading{
+		/*height: 30px;*/
+		width: 300px;
+		text-align: justify;
+	}
+}
+
+@media (min-width: 320px){
+	.fashion_grid1{
+	height: 280px;
+    width: 280px;
+    padding: 30px;
+		
+	}
+}
+
+@media (max-width: 320px){
+	.tabpane{
+		margin-top: 0px;
+		font-size:15px;
+		width: 680px;
+	}
+	.tabs{
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 320px){
+	.jumbhead,.jumbbutton{
+		/*height: 30px;*/
+	    margin-left:0px;
+		font-size:15px;
+		
+	}
+	.jumbcontent{
+		font-size:15px;
+		margin-left: -19px;
+	}
+	
+}
+
+
