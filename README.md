@@ -1,1 +1,1 @@
-The page can be viewed here. https://shonageorge.github.io/exercise2/
+The page can be viewed here.https://shonageorge.github.io/HTML-Bootstrap-Assignment/
