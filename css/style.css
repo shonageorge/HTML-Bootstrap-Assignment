@@ -1,100 +1,153 @@
+
+
 body{
-	background: black;
+		font-family: sans-serif;
+		background-color: white;
 }
 
-.backgroundcolor{
-	background: #DCDCDC;
+h2	{
+		font-family: 'Open Sans Condensed', sans-serif;
+		text-transform: uppercase;
 }
 
-.logo{
-	width:180px;
-	height: 103px;
+.navbar	{
+	font-size: 20px;
+	padding: 5px;
+	float: right;
+	text-transform: uppercase;
+	background-color: lightgray;
+}
+
+.LogoImg	{
+	width: 130px;
+	height: 80px;
 	float: left;
-	padding-left:0px;
-	position:fixed;
-	margin: -30px 0 0 -36px;
-	margin-left: -181px;
+	margin-top:-18px;	
+	margin-bottom: -16px;
 }
 
-.nav{
-	background: white;
-	height: 90px;
+.nav 	{
+	padding-top: 15px;
 }
 
-.searchbar{
-	padding-top: 8px;
-	padding-left: 20px;
-
+.nav a{
+	font-size: 17px;
 }
 
-.carousalsize{
-	margin-top: 95px;
-}
 
-.googlefont{
-	background:#01122B;
-	padding: 5px 0;
-	height: 180px;
-	margin-top: 20px;
-}
-
-.style{
+.googlefont	{
 	font-family : 'Tangerine', cursive;
+	height: 200px;
+	margin-top: 20px;
 	font-size: 80px;
-	padding:30px 300px;
+	padding:30px 270px;
+	background-color: #020D21;
+}
+
+.googlefont p{
 	color: white;
 }
 
-.fashion_grid1 {
-	/*margin-left: 180px;*/
-    height: 350px;
-    width: 350px;
-    padding: 30px;
+.fashionImg1, .fashionImg2, .fashionImg3	{
+	height: 400px;
+	width: 350px;
+	padding: 20px;
+	margin-left: 15px;
 }
 
-.heading{
-	font-family: 'Playfair Display', serif;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Amiri', serif;
-    font-size: 16px;
-	/*margin-left: 180px;*/
-    width: 350px;
-    padding: 30px;
-    margin-top: -60px;
-	
+.color{
+	background: #B9C2D2;
 }
 
-.heading1{
-	font-family: 'Playfair Display', serif;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Amiri', serif;
-    font-size: 30px;
-	/*margin-left: 180px;*/
-    width: 350px;
-    padding: 30px;
-    margin-top: -40px;
+p, li 	{
+	color: white;
 }
 
-.fashiontip_heading,.beautytip_heading{	
-	background: #455166;
-}
-
-.fashiontip_heading{
-	margin-top: 50px;
+h2	{
+	color:white;
+	background:black;
 }
 
 .fashiontip_content{
-	float:right;
-	width: 240px;
+	/*float:right;*/
+	width: 200px;
     font-family: 'Playfair Display', serif;
     font-family: 'Great Vibes', cursive;
     font-family: 'Amiri', serif;
-    line-height: 23px;
-    font-size: 16px;	
+    line-height: 28px;
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+
+}
+.fashiontip_top{
+	margin-top: 20px;
+
 }
 
-.beautytip p,h1{
+.fashiontip img{
+	width:250px;
+    height: 380px;
+    float: left;
+}
+
+.fashiontip1 img{
+	width:250px;
+    height: 380px;
+    float: left;
+}
+
+.fashiontip_content,.fashiontip_head{
+	width: 250px;
+	margin-top: -10px;
+	padding-top: 20px;
+	font-style: justify;
+}
+
+.fashiontip_head{
+	font-size: 25px;
 	color: black;
+}
+
+.fashiontip1{
+	float: right;
+}
+.fashiontip{
+	float:left;
+}
+
+.fashiontip h1,p{
+	float: right;
+	margin-left: 10px;
+}
+
+.fashiontip1 h1,p{
+	float: right;
+	margin-left: 10px;
+}
+
+.fashiontip_top{
+	margin-top: 35px;
+}
+
+.beautytip{
+    float: left;
+    margin:20px 200px ;
+    color: black;
+	text-align: justify;
+}
+
+
+
+.beautytip1{
+	padding-top: 20px;
+}
+
+
+
+.beautytip p{
+font-size:20px;
+margin-left: 0px; 
 }
 	
 .beautytip2,.beautytip3{
@@ -104,9 +157,9 @@ body{
 .beautytip_link{
 	text-decoration: none;
 	color:black;
-	font-size: 15px;
 	padding-left: 8px;
 	font-family: vintage;
+	font-size: 30px;
 }
 
 .beautytip_mainlink{
@@ -114,86 +167,153 @@ body{
 	color: black;
 }
 
-.fashiontip img{
-	width:200px;
-	height: 300px;
-	float: left;
-	padding-right: 20px;
-}
-
-.fashiontip_maincontent{
-	font-family: 'Playfair Display', serif;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Amiri', serif;
-	line-height: 25px;
-	font-size: 17px;
-}
-
 .beautytip_content,.beautytip_link{
 	font-family: 'Playfair Display', serif;
     font-family: 'Great Vibes', cursive;
     font-family: 'Amiri', serif;
 	line-height: 25px;
-	font-size: 17px;
+	
 } 
 
 .beautytip_content{
 	width:320px;
+	color: black;
+	
 }  
+.beautytip p{
+	font-size: 24px;
+}
 
-.jumbhead,.jumbbutton{   
-	margin-left: 600px;
+
+.jumbbutton{   
+	margin: 10px 450px  ;
 }
 
 .jumbhead{
-	padding-top: 50px;
+	margin: 350px 420px 0px 420px ;
 }
 
 .jumbcontent{
-	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: -40px;
+	color:black;
+	margin: 20px 300px;
 }
 
 
 .tabpane{
 	width: 100%;
-	background: white;
+	background: black;
 	font-size: 20px;	
 }
 
 .tabs{
-	margin:60px 300px;
+	margin:60px 250px;
 }
 .tabs a{
-	color:black;
+	color:white;
 }
 
-.icon{
-   float: right;
-   display: inline;
-}
-
-.subscribe{
-	float: left;
-}
-
-.headline{
-	font-size:20px;
-	color: white;
-}
-
-.social_icon{
-	display: inline;
-	margin-right: 15px;
+.heading, #classHeading, #galleryHeading, #timings	{
 	font-size: 25px;
 }
 
-.COPYRIGHT{
-	margin-left: 300px;
-    color: white;
+.heading	{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+    font-size: 25px;
+	width: 350px;
+	padding: 22px;
+	text-align: justify;
+	color: black;
+}
+
+#classHeading 	{
+	font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amiri', serif;
+	height: 100px;
+	color: black;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+
+}
+
+#classHeading p{
+	color: black;
+	font-size: 25px;
 }
 
 .top{
-	margin: 40px 300px;
+	margin-left: 900px;
+}
+
+li a	{
+	text-decoration: none;
+	
+}
+
+ul a:hover	{
+	color: blue;
+}
+
+#myCarousel	{
+	margin-top: 100px;
+}
+
+.gallery {
+	padding-top: 0px;
+}
+
+footer	{
+	background-color:#020D21 ;
+	height: 30px;
+	margin-top: 50px;
+	#padding: 10px 10px;
+	width: 100%;
+	background: black;
+	
+}
+
+.subscribe	{
+	font-size: 25px;
+	font-style: bold;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.input	{
+	height: 40px;
+	width: 300px;
+	margin-left: 15px;
+	#padding:5px 0;
+	color: black;
+	margin-top: 5px;
+}
+
+#input[type="button"]	{
+	width: 100px;
+	height: 45px;
+	#font-family: 'Dosis', sans-serif;
+	margin-bottom: 100px;
+	margin-left: 50px;
+
+}
+
+
+.social	{
+	margin-top: 30px;
+	display: inline;
+	font-size: 40px;
+	float: right;
+	color: black;
+	letter-spacing: 15px;
+}
+
+.socialmedia{
+	background:black;
 }
 
 html,body{
@@ -203,72 +323,61 @@ html,body{
 	overflow-x:hidden;
 }
 
-@media (max-width: 320px){
-	.carousal{ 
-	    width:320px;
-	}
-}
 
-
-@media (max-width: 1400px){
-	.style{
-		font-size:80px;
-	}
-}
-
-@media (max-width: 1346px){
-	.style{
-		font-size:65px;
-	}
-}
-
-@media (max-width: 1206px){
-	.style{
-		font-size:50px;
-	}
-}
- 
-@media (max-width: 1066px){
-	.style{
-		font-size:40px;
-	}
-}
 
 @media (max-width: 320px){
-	.style{
-		/*height: 30px;*/
+
+     .style{
 		margin-top: 0px;
-		font-size:30px;
+		font-size:50px;
 		margin-left: -280px;
 	}
-}
 
-@media (max-width: 320px){
 	.googlefont{
 		margin-top: 0px;
 		height: 80px;
+		font-size: 20px;
 		
 	}
-}
 
-@media (max-width: 320px){
 	.heading{
 		/*height: 30px;*/
 		width: 300px;
 		text-align: justify;
+		font-size: 20px;
 	}
-}
-
-@media (min-width: 320px){
-	.fashion_grid1{
-	height: 280px;
-    width: 280px;
-    padding: 30px;
-		
+	.fashionImg1, .fashionImg2, .fashionImg3{
+		width: 250px;
+		height: 250px;
 	}
-}
 
-@media (max-width: 320px){
+	#classHeading p{
+		font-size: 20px;
+		text-align: justify;
+	}
+	.fashiontip img{
+		height: 300px;
+		margin:0px 30px;
+	}
+	.fashiontip1 img{
+         height: 300px;
+		margin:0px 30px;
+	}
+	.fashiontip_content,.fashiontip_head{
+		font-size: 20px;
+		margin: 0px 30px;
+	}
+	.beautytip  {
+         margin-left:0px;
+         
+	}
+	.beautytip_content {
+		width: 250px;
+		font-size: 15px;
+	}
+	.beautytip_link{
+		font-size:20px;
+	}
 	.tabpane{
 		margin-top: 0px;
 		font-size:15px;
@@ -277,20 +386,124 @@ html,body{
 	.tabs{
 		margin-left: 0px;
 	}
-}
 
-@media (max-width: 320px){
-	.jumbhead,.jumbbutton{
-		/*height: 30px;*/
-	    margin-left:0px;
+	.jumbotron{
+          padding: 0px;
+          margin-top: -300px; 
+	}
+
+	.jumbhead{
+	    margin:330px 0px 0px 70px;
 		font-size:15px;
 		
 	}
+
+	.jumbbutton{
+		margin-left: 70px;
+
+	}
 	.jumbcontent{
 		font-size:15px;
-		margin-left: -19px;
+		margin-right: -5px;
+		 margin:0px 0px 0px 20px;
+	}
+	.top{
+		float: left;
+		margin-left: 200px;
 	}
 	
 }
 
+
+@media (max-width: 768px){
+
+	.carousel1{
+		padding-top:60px;
+        
+	}
+
+	.style{
+	  	margin: -20px -90px  ;
+	  }
+
+	.googlefont{
+		height: 80px;
+		font-size: 50px;
+	}
+
+	.heading{
+		width: 200px;
+		text-align: justify;
+		font-size: 20px;
+	}
+	.fashionImg1, .fashionImg2, .fashionImg3{
+		width: 200px;
+		height: 200px;
+		margin-top: -5px;
+	}
+
+	#classHeading p{
+		font-size: 20px;
+		text-align: justify;
+	}
+	.fashiontip img{
+		height: 300px;
+		width: 200px;
+	}
+	.fashiontip1 img{
+         height: 300px;
+         width: 200px;
+		margin-top: 50px;
+		float: left;
+		padding-left: -100px;
+	}
+	.fashiontip_content,.fashiontip_head{
+		font-size: 20px;
+        width: 200px;
+		margin:30px 0px 0px 30px;
+	}
+	.beautytip  {
+         margin-left:0px;
+         
+	}
+	.beautytip_content {
+		width: 250px;
+		font-size: 15px;
+	}
+	.beautytip_link{
+		font-size:20px;
+	}
+	.tabpane{
+		margin-top: 0px;
+		font-size:15px;
+		width: 680px;
+	}
+	.tabs{
+		margin-left: 0px;
+	}
+
+	.jumbotron{
+          padding-top: 0px;
+          margin-top: 190px; 
+	}
+
+	.jumbhead{
+	    margin:0px 200px;
+		font-size:15px;
+	}
+
+	.jumbbutton{
+		margin-left: 210px;
+
+	}
+	.jumbcontent{
+		font-size:15px;
+		margin:10px 220px 10px 0px;
+	}
+	.top{
+		float: left;
+		margin-left: 500px;
+	}
+
+}
 
